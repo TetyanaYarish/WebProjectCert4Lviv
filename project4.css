@@ -1,0 +1,120 @@
+/* Задание стилей страницы */
+html, body, header {
+    margin:5px;
+    color:#333;  
+    text-align:center;
+    font-family:fantasy;
+    font-size:12px;
+}
+
+/* Задание стилей всего шаблона */
+#site { 
+    margin:0 auto;
+    padding:50px;
+    width:720px;
+    text-align:left;
+     background-image: linear-gradient(white, blue);
+}
+#site h2 {
+    font-size:20px;
+}
+
+#site h3 {
+    font-size:15px;
+}
+
+/* Задание стилей ссылок всего шаблона */
+a {
+    color:mediumvioletred;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+a:hover {
+    color:#fff;
+}
+
+/* Задание стилей горизонтальных линий */
+hr {
+    margin:10px 0;
+    border:0;
+    width:100%;
+    background-color:#bcd2ff;
+    color:#bcd2ff;
+    height:1px;
+    clear:both;
+    text-align:center;
+}
+
+/* Задание стилей блока заголовка */
+#header {
+    height:130px;
+    padding:30px;  
+    border-top:1px solid #fff;
+    color:black;
+    text-align:center;
+}
+/*
+Форма обратной связи
+*/
+#inline {
+   margin-left:30px;
+   width:80%;
+   margin:0 auto;
+   background:#FOBEBE;
+   padding:10px 20px;
+}
+.txt {
+   display:inline-block;
+   color:#676767;
+   width:190px;
+   margin-bottom:10px;
+   border:1px solid #CCC;
+   padding:5px 9px;
+   font-size:15px!important;
+   line-height:1.4em;
+}
+.txtarea {
+   display:inline-block;
+   color:#676767;
+   width:560px;
+   margin-bottom:10px;
+   border:1px solid #CCC;
+   padding:5px 9px;
+   font-size:15px!important;
+   line-height:1.4em;
+   height:80px;
+}
+.txt:focus, .txtarea:focus {
+   border-style:solid;
+   border-color:#BABABA;
+   color:#444;
+}
+input.error, textarea.error {
+    border-color:#973D3D;
+    border-style:solid;
+    background:#F0BEBE;
+    color:#A35959;
+}
+input.error:focus, textarea.error:focus {
+    border-color:#973D3D;
+    color:#A35959;
+}
+#send { 
+    color:#FFFFFF;
+    display:flow-root;
+    cursor:pointer;
+    padding:5px 11px;
+    font-size:1.2em;
+    border:solid 1px #F9F9F9;
+    border-radius:2px;
+    background:#70C6B9;
+    width:210px;
+    margin-bottom:20px;
+}
+#send:hover {
+    background:#979797;
+}
+/*
+Форма обратной связи
+*/

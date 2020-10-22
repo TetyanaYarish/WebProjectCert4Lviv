@@ -1,0 +1,68 @@
+/* Задание стилей страницы */
+html, body, header {
+    margin:5px;
+    color:#333;  
+    text-align:center;
+    font-family:fantasy;
+    font-size:12px;
+}
+
+/* Задание стилей всего шаблона */
+#site { 
+    margin:0 auto;
+    padding:50px;
+     text-align:left;
+     background-image: linear-gradient(white, blue);
+}
+
+/* Задание стилей ссылок всего шаблона */
+a {
+    color:#e56861;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#fff;
+}
+
+/* Задание стилей горизонтальных линий */
+hr {
+    margin:10px 0;
+    border:0;
+    width:100%;
+    background-color:#bcd2ff;
+    color:#bcd2ff;
+    height:1px;
+    clear:both;
+    text-align:center;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+/* Задание стилей блока заголовка */
+#header {
+    height:130px;
+    padding:30px;
+    background: url(IMG_2.JPG);
+    border-top:1px solid #fff;
+    color:black;
+    text-align:center;
+}
+/* Задание стилей блоков столбцов */
+#set1 {
+   height:315px;
+   color:#fff;
+   text-align:center;
+}
